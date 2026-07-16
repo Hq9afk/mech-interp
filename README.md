@@ -1,8 +1,11 @@
-# mech-interp
+# Mechanistic Interpretability
 
-A hands-on introduction to mechanistic interpretability: the attempt to reverse-engineer what's actually happening inside a trained neural network, rather than just measuring its inputs and outputs. Instead of treating a language model as a black box, mech interp opens it up and asks concrete questions like "which attention head is copying this token?" or "which direction in the residual stream corresponds to this token's logit?", and answers them by running real experiments on a real model (GPT-2, in this repo) rather than reasoning from theory alone.
+Mechanistic Intepretability (mech-interp), is defined as the attempt to reverse-engineer what's actually happening inside a trained neural network, rather than just measuring its inputs and outputs. Instead of treating a language model as a black box, mech-interp opens it up and asks concrete questions, such as "which attention head is copying this token?" or "which direction in the residual stream corresponds to this token's logit?", and answers them by running real experiments on a real model (GPT-2, in this repo) rather than reasoning from theory alone.
 
-This repo is a self-paced track: a short library warm-up, then a series of notebooks that build up the core toolkit (TransformerLens, activation caching, hooks) and use it to find and explain real circuits inside GPT-2, such as induction heads.
+This repo contains the following:
+- A short tutorial for used libraries (numpy, pytorch, tranformer_lens)
+- A series of notebooks that build up the core toolkit (TransformerLens, activation caching, hooks) and use it to find and explain real circuits inside GPT-2, such as induction heads.
+- A blanked version of the notebooks for self-typing
 
 ## Repo structure
 
